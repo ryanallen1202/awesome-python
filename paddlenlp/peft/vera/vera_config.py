@@ -129,3 +129,4 @@ class VeRAConfig:
             json_object = json.load(file)
 
         return json_object
+# 3088b6

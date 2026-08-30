@@ -523,3 +523,4 @@ class CollatorBase(metaclass=abc.ABCMeta):
     def __call__(self, samples: list[dict[str, paddle.Tensor]]) -> dict[str, paddle.Tensor]:
         """Collate a list of samples into a batch."""
         raise NotImplementedError
+# e8f78b
